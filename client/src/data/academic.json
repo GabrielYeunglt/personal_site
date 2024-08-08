@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Lancaster University",
+        "year": "Oct 2012 - Jun 2015",
+        "field": "Information Technologies for creative industries",
+        "level": "Bachelor's degree",
+        "country": "United Kingdom",
+        "image": "./custom_image/lancaster.jpeg"
+    },
+    {
+        "title": "Seneca College",
+        "year": "May 2023 - Aug 2024",
+        "field": "Computer Programming",
+        "level": "Diploma",
+        "country": "Canada"
+    }
+]

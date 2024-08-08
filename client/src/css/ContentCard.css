@@ -1,0 +1,31 @@
+.content-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    max-width: 300px;
+    margin: 20px;
+  }
+  
+  .content-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .content-card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content-card-body {
+    padding: 15px;
+  }
+  
+  .content-card-body h3 {
+    margin-top: 0;
+  }
+  
+  .content-card-body p {
+    color: #555;
+  }
+  

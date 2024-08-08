@@ -1,0 +1,19 @@
+import React from 'react';
+import '../css/ContentCard.css'
+
+const AcademicCard = (props) => {
+    return (
+      <div className="content-card">
+        <img src={props.imageUrl} alt={props.title} className="content-card-image" />
+        <div className="content-card-body">
+          <h3>{props.title}</h3>
+          <p>{props.year}</p>
+          <p>{props.field}</p>
+          <p>{props.level}</p>
+          <p>{props.country}</p>
+        </div>
+      </div>
+    );
+  };
+  
+  export default AcademicCard;
